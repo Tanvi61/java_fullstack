@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DeserializationDemo",
+            "request": "launch",
+            "mainClass": "Day_09.DeserializationDemo",
+            "projectName": "Java zeal_8122ccbe"
+        },
+        {
+            "type": "java",
+            "name": "SerializationDemo",
+            "request": "launch",
+            "mainClass": "Excersize_01.SerializationDemo",
+            "projectName": "Java zeal_8122ccbe"
+        },
+        {
+            "type": "java",
+            "name": "CopyPestWithBinaryData",
+            "request": "launch",
+            "mainClass": "Day_09.CopyPestWithBinaryData",
+            "projectName": "Java zeal_8122ccbe"
+        },
+        {
+            "type": "java",
+            "name": "WriterDemo",
+            "request": "launch",
+            "mainClass": "Day_09.WriterDemo",
+            "projectName": "Java zeal_8122ccbe"
+        },
+        {
+            "type": "java",
+            "name": "Syntax_7_9",
+            "request": "launch",
+            "mainClass": "Excersize_01.Syntax_7_9",
+            "projectName": "Java zeal_8122ccbe"
+        },
+        {
+            "type": "java",
             "name": "VotingApplication",
             "request": "launch",
             "mainClass": "Day_08.VotingApplication",
