@@ -9,7 +9,7 @@ public class Ram {
 
     public void getOrder(String teaName) throws InstantiationException, IllegalAccessException{
         try{
-            Class cl = Class.forName(teaName);
+            Class<?> cl = Class.forName(teaName);
             Object o = cl.newInstance();//Upcasting 
             Tea tea = (Tea)o;//Downcasting
             tea.benifits();

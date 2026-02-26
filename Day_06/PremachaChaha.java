@@ -32,5 +32,6 @@ public class PremachaChaha {
             choice = sc.next();
         }while(choice.equalsIgnoreCase("yes"));
         System.out.println("Thank You..!!");
+        sc.close();
     }
 }

@@ -15,10 +15,9 @@ public class WriterDemo {
             fw.write("I am java developer");
             fw.close();
             System.out.println("Success");
+            fr.close();
         }catch(IOException e){
             e.printStackTrace();
         }
-        
-
     }
 }

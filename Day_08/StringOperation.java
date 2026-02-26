@@ -5,8 +5,8 @@ public class StringOperation {
         /// Differnce between == and .equals() method
         String str = new String("Java");
         String str1 = new String("Java");
-        String s = "Tanvi";
-        String t = "Tanvi";
+        // String s = "Tanvi";
+        // String t = "Tanvi";
 
         String str2 = str.concat(" is a programming language");
         System.out.println(str2);

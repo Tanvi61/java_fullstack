@@ -4,9 +4,9 @@ import java.util.Random;
 import java.util.Scanner;
 public class SBI {
     static Random rad = new Random();
-    void fundTransfer(int SenreAccNo,int RecAccNo,float amount){
+    void fundTransfer(int SendreAccNo,int RecAccNo,float amount){
         System.out.println("Welcome to Net Banking");
-        System.out.println("Sender Account Number : "+SenreAccNo);
+        System.out.println("Sender Account Number : "+SendreAccNo);
         System.out.println("Receiver Account Number : "+RecAccNo);
         System.out.println("Transefer Amount : "+amount);
         System.out.println("Fund Transfer Successfully..!!");
@@ -28,7 +28,7 @@ public class SBI {
 
     }
 
-    private void fundTransfer(long mobileNo, float amt){
+    private void fundTransfer(long mobileNo, int amt){
         System.out.println("Welcome to Mobile Banking");
         System.out.println("Sender Mobile Number : "+mobileNo);
         System.out.println("Transefer Amount : "+amt);
