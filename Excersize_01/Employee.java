@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class Employee implements Serializable{  //Serializable is marker Interface 
     private int empId;
     private String empName;
-    private float empSal;
+    transient private float empSal;
     public Employee(int empId, String empName, float empSal) {
         this.empId = empId;
         this.empName = empName;

@@ -12,9 +12,11 @@ public class NumberChecking {
         
         try{
             int num = sc.nextInt();
+            System.out.println(num);
         }catch(NumberFormatException nf){
             System.out.println("Please Enter Correct Number format..!!");
             nf.printStackTrace();
         }
+        sc.close();
     }
 }

@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayListDemo",
+            "request": "launch",
+            "mainClass": "Day_11.ArrayListDemo",
+            "projectName": "Java zeal_8122ccbe"
+        },
+        {
+            "type": "java",
+            "name": "TicketBooking",
+            "request": "launch",
+            "mainClass": "Exercise_02.TicketBooking",
+            "projectName": "Java zeal_8122ccbe"
+        },
+        {
+            "type": "java",
+            "name": "CountingDemo",
+            "request": "launch",
+            "mainClass": "Day_10.CountingDemo",
+            "projectName": "Java zeal_8122ccbe"
+        },
+        {
+            "type": "java",
             "name": "TicketBooking",
             "request": "launch",
             "mainClass": "Day_10.TicketBooking",
