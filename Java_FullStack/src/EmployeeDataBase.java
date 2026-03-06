@@ -4,7 +4,7 @@ import java.util.List;
 public class EmployeeDataBase {
 	
 	public static List<Employee> getEmployeeList(){
-		List<Employee> empList = new ArrayList();
+		List<Employee> empList = new ArrayList<>();
 		Employee darshana = new Employee(101,"Darshana",2000.9,20,'F',"Dev",2021);
 		Employee Tanvi = new Employee(102,"Tanvi",3000.9,21,'F',"CEO",2022);
 		Employee Shruti = new Employee(103,"Shruti",4500.9,22,'F',"CTO",2022);
