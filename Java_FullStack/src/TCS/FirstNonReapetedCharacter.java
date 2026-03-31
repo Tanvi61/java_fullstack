@@ -20,3 +20,4 @@ public class FirstNonReapetedCharacter {
 	}
 
 }
+// Program for finding first non repeating character in the given string 
