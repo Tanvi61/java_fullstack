@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
@@ -18,3 +19,109 @@
     }
   ]
 }
+=======
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ArrayListDemo",
+            "request": "launch",
+            "mainClass": "Day_11.ArrayListDemo",
+            "projectName": "Java zeal_8122ccbe"
+        },
+        {
+            "type": "java",
+            "name": "TicketBooking",
+            "request": "launch",
+            "mainClass": "Exercise_02.TicketBooking",
+            "projectName": "Java zeal_8122ccbe"
+        },
+        {
+            "type": "java",
+            "name": "CountingDemo",
+            "request": "launch",
+            "mainClass": "Day_10.CountingDemo",
+            "projectName": "Java zeal_8122ccbe"
+        },
+        {
+            "type": "java",
+            "name": "TicketBooking",
+            "request": "launch",
+            "mainClass": "Day_10.TicketBooking",
+            "projectName": "Java zeal_8122ccbe"
+        },
+        {
+            "type": "java",
+            "name": "ThreadNameAndPriority",
+            "request": "launch",
+            "mainClass": "Day_10.ThreadNameAndPriority",
+            "projectName": "Java zeal_8122ccbe"
+        },
+        {
+            "type": "java",
+            "name": "MultipleTryWithResourcesDemo",
+            "request": "launch",
+            "mainClass": "Excersize_01.MultipleTryWithResourcesDemo",
+            "projectName": "Java zeal_8122ccbe"
+        },
+        {
+            "type": "java",
+            "name": "DeserializationDemo",
+            "request": "launch",
+            "mainClass": "Day_09.DeserializationDemo",
+            "projectName": "Java zeal_8122ccbe"
+        },
+        {
+            "type": "java",
+            "name": "SerializationDemo",
+            "request": "launch",
+            "mainClass": "Excersize_01.SerializationDemo",
+            "projectName": "Java zeal_8122ccbe"
+        },
+        {
+            "type": "java",
+            "name": "CopyPestWithBinaryData",
+            "request": "launch",
+            "mainClass": "Day_09.CopyPestWithBinaryData",
+            "projectName": "Java zeal_8122ccbe"
+        },
+        {
+            "type": "java",
+            "name": "WriterDemo",
+            "request": "launch",
+            "mainClass": "Day_09.WriterDemo",
+            "projectName": "Java zeal_8122ccbe"
+        },
+        {
+            "type": "java",
+            "name": "Syntax_7_9",
+            "request": "launch",
+            "mainClass": "Excersize_01.Syntax_7_9",
+            "projectName": "Java zeal_8122ccbe"
+        },
+        {
+            "type": "java",
+            "name": "VotingApplication",
+            "request": "launch",
+            "mainClass": "Day_08.VotingApplication",
+            "projectName": "Java zeal_8122ccbe"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionHandlingDemo",
+            "request": "launch",
+            "mainClass": "Day_08.ExceptionHandlingDemo",
+            "projectName": "Java zeal_8122ccbe"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
+>>>>>>> 78fcdadde0cc3f823b4548eed5ee7010a747d608
