@@ -1,0 +1,66 @@
+<div class="dashboard">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>🧠 MentalCare</h2>
+    <ul>
+      <li>Dashboard</li>
+      <li (click)="goToMood()">😊 Mood</li>
+      <li (click)="goToHealth()">❤️ Health</li>
+      <li (click)="goToTrends()">📊 Trends</li>
+      <li (click)="goToAI()">AI Predictor</li>
+    </ul>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main">
+
+    <!-- Topbar -->
+    <div class="topbar">
+      <h3>Welcome, {{username || 'User'}} 👋</h3>
+      <button class="logout" (click)="logout()">Logout</button>
+    </div>
+
+    <!-- Cards -->
+    <div class="cards">
+
+<!-- Mood -->
+<div class="card clickable" (click)="goToMood()">
+  @if (mood) {
+    😊 Mood: {{ mood.mood }}
+    @if (mood.note) { <p class="small-note">📝 {{ mood.note }}</p> }
+    @if (mood.timestamp) { <small>🕒 {{ mood.timestamp | date:'shortTime' }}</small> }
+  } @else {
+    😊 Mood: N/A
+  }
+</div>
+
+<!-- Heart -->
+<div class="card clickable" (click)="goToHealth()">
+  @if (health) {
+    ❤️ Heart Rate: {{ health.heartRate ?? 'N/A' }} bpm
+    @if (health.timestamp) { <br><small>🕒 {{ health.timestamp | date:'shortTime' }}</small> }
+  } @else {
+    ❤️ Heart Rate: N/A
+  }
+</div>
+
+<!-- Sleep -->
+<div class="card clickable" (click)="goToHealth()">
+  @if (health) {
+    😴 Sleep: {{ health.sleepHours ?? 'N/A' }} hrs
+    @if (health.timestamp) { <br><small>🕒 {{ health.timestamp | date:'shortTime' }}</small> }
+  } @else {
+    😴 Sleep: N/A
+  }
+</div>
+
+    </div>
+
+    <!-- Chart -->
+    <div class="chart">
+      <canvas #stressChart></canvas>
+    </div>
+
+  </div>
+</div>

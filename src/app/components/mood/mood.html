@@ -1,0 +1,50 @@
+<div class="container">
+  <div class="card">
+
+    <h2>How are you feeling today?</h2>
+    <p class="subtitle">Track your mood daily</p>
+
+    <!-- Mood Options -->
+    <div class="mood-options">
+      <span (click)="mood='Happy'"   [class.active]="mood==='Happy'">😊</span>
+      <span (click)="mood='Sad'"     [class.active]="mood==='Sad'">😢</span>
+      <span (click)="mood='Stressed'"[class.active]="mood==='Stressed'">😰</span>
+      <span (click)="mood='Angry'"   [class.active]="mood==='Angry'">😡</span>
+      <span (click)="mood='Relaxed'" [class.active]="mood==='Relaxed'">😌</span>
+    </div>
+
+    <!-- Note -->
+    <textarea 
+      [(ngModel)]="note" 
+      placeholder="Write something... (optional)">
+    </textarea>
+
+    <!-- Save Button -->
+    <button 
+      (click)="submit()" 
+      [disabled]="!mood">
+      Save Mood
+    </button>
+
+    <!-- Message -->
+    <p class="message" *ngIf="message">{{ message }}</p>
+
+    <!-- Last Mood -->
+    @if (lastMood) {
+      <div class="last">
+      <h4>Last Mood</h4>
+      <p>😊 Mood: {{ lastMood.mood }}</p>
+      @if (lastMood.note) { <p>📝 {{ lastMood.note }}</p> }
+      @if (lastMood.timestamp) { <p>🕒 {{ lastMood.timestamp | date:'medium' }}</p> }
+      </div>
+    } @else {
+      <div class="last">
+        <p>No mood recorded yet 📭</p>
+      </div>
+    }
+
+    <!-- BACK BUTTON -->
+    <button class="back" (click)="goBack()">← Back</button>
+
+  </div>
+</div>

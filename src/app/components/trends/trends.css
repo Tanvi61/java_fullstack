@@ -1,0 +1,52 @@
+.trends {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.charts {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.chart-container {
+  flex: 1;
+  min-width: 300px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.chart-container canvas {
+  width: 100% !important;
+  height: 300px !important;
+}
+
+.insights {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.insights p {
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+.back {
+  padding: 10px 20px;
+  background: #4a5568;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.back:hover {
+  background: #2d3748;
+}

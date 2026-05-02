@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="card">
+
+    <h2>Welcome Back</h2>
+    <p class="subtitle">Login to your account</p>
+
+    <input [(ngModel)]="username" placeholder="Username">
+    <input [(ngModel)]="password" type="password" placeholder="Password">
+
+    <button (click)="login()">Login</button>
+
+    <p class="message">{{message}}</p>
+    <p>
+  Don't have an account?
+  <a (click)="router.navigate(['/register'])">Register</a>
+</p>
+
+  </div>
+</div>
